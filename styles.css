@@ -66,15 +66,15 @@
  .cash-container{
    display: grid;
    justify-content: center;
-   max-width: 100%;
-   height: 100vh;
-   /* align-items: center; */
+    max-height: 100vh;
+    grid-template-rows: 20%fr 80%;
+    position: relative;
+   
  }
  .btn-container{
    max-width: 100%;
    background-color: #870052;
-   height: 100%; 
-   margin-top: 1rem;
+    margin-top: 1rem; 
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -84,6 +84,11 @@
  } 
  .atm{
    max-width: 100%;
+ }
+ .ahmed{
+  text-align: center;
+  color: #870052;
+  text-transform: capitalize;
  }
  .cash-button{
    padding: 10px 15px;
