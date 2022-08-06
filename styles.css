@@ -73,7 +73,7 @@
  .btn-container{
    max-width: 100%;
    background-color: #870052;
-   height: 40vh; 
+   height: 100%; 
    margin-top: 1rem;
    display: flex;
    flex-direction: column;
