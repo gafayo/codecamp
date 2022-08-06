@@ -6,16 +6,16 @@
     margin: 0;
     box-sizing: border-box;
  }
- body{
+  .body-container{
      display: grid;
      justify-content: center;
      font-family: 'Poppins', sans-serif;
- }
+ } 
  h2{
    text-align: center;
    color: #870052;
  }
- .container{
+ .first-container{
    position: relative;
    margin-top: 5rem;
     /* border: 2px solid red;  */
@@ -39,7 +39,7 @@
  .resend{
    text-align: center;
  }
- button{
+ .button{
    display: flex;
    justify-content: center;
    margin: 10rem auto;
@@ -61,3 +61,29 @@
     left: 25px;
     font-size: 1.6rem
  }
+
+ /* cash-html starts here */
+ .cash-container{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+ }
+ .btn-container{
+   background-color: #870052;
+    height: 80vh; 
+   margin-top: 2rem;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   /* /* display: grid; */
+ } 
+ .atm{
+   max-width: 100%;
+ }
+ .cash-button{
+   padding: 5px 15px;
+   border-radius: 5px;
+   border: none;
+ } 
